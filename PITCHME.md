@@ -13,14 +13,24 @@ Note:
 
 ---
 
-@fa[question-circle fa-3x]
-### Who’s testing their infrastructure (as code) and how?
+### Why?
+
+- Lots of talks on Kubernetes and uses, little about how it works
+- Many features within kubernetes to learn and understand for operations and architecture
+- Grow awareness and begin focused discussions for community input/feedback
+
+---
+### Kubernetes Glossary
+
+- CRI - Container Runtime Interface
+- CNI - Container Network Interface
+- CSI - Container Storage Interface
+- OCI - Open Container Initiative(Image spec vs. Runtime sepc)
+- runc/runv/cc-runtime
+- Pod Sandbox
 
 +++
-### Ansible Core on Testing...
+### Kubernetes Overview
 
-[Ansible Testing Strategies](https://docs.ansible.com/ansible/latest/test_strategies.html)
+![Kubernetes Components](https://d33wubrfki0l68.cloudfront.net/e298a92e2454520dddefc3b4df28ad68f9b91c6f/70d52/images/docs/pre-ccm-arch.png)
 
-> @size[22pt](Ansible believes you should not need another framework to validate basic things of your infrastructure is true. This is the case because Ansible is an order-based system that will fail immediately on unhandled errors for a host, and prevent further configuration of that host. This forces errors to the top and shows them in a summary at the end of the Ansible run...)
-
-+++
