@@ -1,4 +1,4 @@
-@size[40pt](@color[#FF694B](**Kubernetes Under the Hood**)@color[#333F48](: a deep dive into container runtimes))
+@size[40pt](@color[#FF694B](**Kubernetes Under the Hood**)@color[#333F48](: <br />A deep dive into container runtimes))
 
 @snap[south]
 @size[18pt](Jake Remitz | Lead Software DevOps Engineer) <br />
