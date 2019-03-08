@@ -8,6 +8,6 @@ pro-menus-hidden : true
 
 logo : template/img/cwt.png
 logo-position : bottom-right
-footnote : "© 2018 Jake Remitz"
+footnote : "© 2019 Jake Remitz"
 
 remote-control : true

@@ -12,9 +12,9 @@ Note:
     - reusable, scalable code
 
 ---
-### Foreword
+#### Foreword
 
-Many technical/owner changes in opensource... interesting journey to identify information
+@size[16pt](Many technical/owner changes in opensource... interesting journey to identify information)
 
 ![Baseketball Map of Sports Team Changes](/src/img/baseketball-map.png)
 
