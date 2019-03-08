@@ -80,12 +80,16 @@ Note:
 
 +++
 
-#### Container Runtime Interface (CRI)
+@snap[north h1]
+Container Runtime Interface (CRI)
+@snapend
 
-@snap[west list-content-concise span-60]
+@snap[west span-50]
+@ol[text-07](false)
 - Introduced in kubernetes 1.5
 - Incorporated into the Kubelet which runs<br />on the Node
 - Leverages gRPC calls for common functions<br />like stopping/starting containers, and other things
+@olend
 @snapend
 
 @snap[east sidebar]
