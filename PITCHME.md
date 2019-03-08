@@ -43,7 +43,7 @@ Note:
 
 ![LXC versus Docker from Stack Exchange](https://i.stack.imgur.com/a5Neb.png)
 
-[Stack Exchange Inquiry](https://unix.stackexchange.com/a/254982)
+@css[text-06]([Stack Exchange](https://unix.stackexchange.com/a/254982))
 
 +++
 
