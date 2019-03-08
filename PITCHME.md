@@ -106,7 +106,7 @@ CONTAINER RUNTIME INTERFACE (CRI)
 KUBERNETES CONTAINER RUNTIMES
 @snapend
 
-@snap[west span-100]
+@snap[midpoint span-100]
 @ul[text-06](false)
 - Docker
 - Containerd
