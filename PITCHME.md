@@ -81,7 +81,7 @@ Note:
 +++
 
 @snap[north text-bold text-capitalize h1]
-Container Runtime Interface (CRI)
+CONTAINER RUNTIME INTERFACE (CRI)
 @snapend
 
 @snap[west span-50]
