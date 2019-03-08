@@ -130,10 +130,10 @@ KUBERNETES CONTAINER RUNTIMES
 
 - Has built in API for handling CRI calls
 - Supports multiple OCI runtimes
-- Default runtime is runc, can handle untrusted/trusted workloads
+- Default runtime is `runc`, can handle untrusted/trusted workloads
 - Support Kubernetes RuntimeClasses (alpha w/ v1.12)
 
-![CRI Docker](/src/img/cri-containerd.png)
+![CRI Containerd](/src/img/cri-containerd.png)
 
 +++
 #### CRI-O
@@ -141,23 +141,27 @@ KUBERNETES CONTAINER RUNTIMES
 - Default with Openshift installation
 - Built specifically for Kubernetes
 - Supports multiple OCI runtimes
-- Default runtime is runc, can handle untrusted/trusted workloads
+- Default runtime is `runc`, can handle untrusted/trusted workloads
+- Support kata-containers
 
-![CRI Docker](/src/img/cri-crio.png)
+![CRI CRI-O](/src/img/cri-crio.png)
 
 +++
 
 #### Frakti
 
-- Default runtime is runv
+- Default runtime is `runv`
 - Runs pods in hypervisors via runv/hyperd
 - Supports multiple OCI runtimes, for use with Docker as well
+
+![CRI Frakti](/src/img/cri-frakti.png)
 
 ---
 
 ### Kubernetes Installation Methods
 
 @snap[west span-100]
+Based on installation type, limitations for CRI implementation exist
 @ul[text-06](false)
 - EKS (AWS)
 - GKE (Google Cloud)
