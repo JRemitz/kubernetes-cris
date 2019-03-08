@@ -158,20 +158,35 @@ KUBERNETES CONTAINER RUNTIMES
 
 ---
 
+### Kata-containers
+
+- Based on Intel's Clear Containers with help from Openstack Foundation
+- Runtime of `virtcontainers`
+- Runs qemu-lite virtual machines
+- Supports AWS' Firecracker-based virtual machines as of January, 2019
+
+---
+
 ### Kubernetes Installation Methods
 
-@css[text-left](Based on installation type, limitations for CRI implementation exist)
+Limitations exist for CRI support:
 - EKS (AWS)
 - GKE (Google Cloud)
 - IBM Cloud Kubernetes
 - Kops
 - KubeSpray
-- Kubeadm
+- @color[#FF694B](Kubeadm)
 - Kubic
 - PKS
-- _many more..._
+- _..._
 
-+++
+---
+
+### Demonstration
+
+@img[span-60](http://hddfhm.com/images/clipart-frankenstein-18.png)
+---
+
 ### Glossary
 
 - CNI - [Container Network Interface](https://github.com/containernetworking/cni#cni---the-container-network-interface) - network connectivity of containers
