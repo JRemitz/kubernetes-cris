@@ -80,7 +80,7 @@ Note:
 
 +++
 
-@snap[north text-bold text-capitalize h1]
+@snap[north text-bold text-capitalize h1 span-100]
 CONTAINER RUNTIME INTERFACE (CRI)
 @snapend
 
