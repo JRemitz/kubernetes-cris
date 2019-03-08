@@ -184,7 +184,9 @@ Limitations exist for CRI support:
 
 ### Demonstration
 
-@img[span-60](http://hddfhm.com/images/clipart-frankenstein-18.png)
+@css[text-bold](Frankenstein's Kubernetes)
+
+@img[span-30](http://hddfhm.com/images/clipart-frankenstein-18.png)
 ---
 
 ### Glossary
