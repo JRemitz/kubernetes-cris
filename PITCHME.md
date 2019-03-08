@@ -63,7 +63,7 @@ Note:
 - runv - hypervisor-based runtime
 - runhcs - Windows container host counterpart to runc
 - runsc - gVisor runtime by Google
-- kata-runtime - hypervisor-based runtime
+- virtcontainers - hypervisor-based runtime for kata-containers
 - cc-runtime (deprecated) - hypervisor-based runtime
 
 ---
@@ -100,32 +100,73 @@ CONTAINER RUNTIME INTERFACE (CRI)
 @snapend
 
 ---
+@transition[none]
+### Kubernetes Container Runtimes
 
-### Container Runtimes
-
-@ul(false)
+@snap[west span-100]
+@ul[text-06](false)
 - Docker
 - Containerd
 - CRI-O
 - Frakti
 - Rkt (inactive)
 @ulend
+@snapend
 
 +++
 #### Docker
+
+- Default container runtime for most installations
+- References dockershim which is built into Kubelet
+- leverages `runc` as OCI runtime
 
 ![CRI Docker](/src/img/cri-docker.png)
 
 +++
 #### Containerd
 
+- Has built in API for handling CRI calls
+- Supports multiple OCI runtimes
+- Default runtime is runc, can handle untrusted/trusted workloads
+- Support Kubernetes RuntimeClasses (alpha w/ v1.12)
+
 ![CRI Docker](/src/img/cri-containerd.png)
 
 +++
 #### CRI-O
 
+- Default with Openshift installation
+- Built specifically for Kubernetes
+- Supports multiple OCI runtimes
+- Default runtime is runc, can handle untrusted/trusted workloads
+
 ![CRI Docker](/src/img/cri-crio.png)
 
++++
+
+#### Frakti
+
+- Default runtime is runv
+- Runs pods in hypervisors via runv/hyperd
+- Supports multiple OCI runtimes, for use with Docker as well
+
+---
+
+### Kubernetes Installation Methods
+
+@snap[west span-100]
+@ul[text-06](false)
+- EKS (AWS)
+- GKE (Google Cloud)
+- IBM Cloud Kubernetes
+- Kops
+- KubeSpray
+- Kubeadm
+- Kubic
+- PKS
+- _many more..._
+@ulend
+@snapend
 
 +++
 ### Glossary
