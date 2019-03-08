@@ -81,13 +81,14 @@ Note:
 +++
 
 #### Container Runtime Interface (CRI)
-@snap[north]
-- Introduced in kubernetes 1.5
-- Incorporated into the Kubelet which runs on the Node
-- Leverages gRPC calls for common functions like stopping/starting containers, and other things
-@snapend
 
-@snap[south]
+- Introduced in kubernetes 1.5
+- Incorporated into the Kubelet which 
+  runs on the Node
+- Leverages gRPC calls for common functions 
+  like stopping/starting containers, and other things
+
+@snap[east sidebar]
 ![CRI Overview](/src/img/cri_overview.png)
 @snapend
 
