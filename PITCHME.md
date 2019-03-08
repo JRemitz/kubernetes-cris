@@ -160,9 +160,7 @@ KUBERNETES CONTAINER RUNTIMES
 
 ### Kubernetes Installation Methods
 
-@snap[west span-100]
 Based on installation type, limitations for CRI implementation exist
-@ul[text-06](false)
 - EKS (AWS)
 - GKE (Google Cloud)
 - IBM Cloud Kubernetes
@@ -172,8 +170,6 @@ Based on installation type, limitations for CRI implementation exist
 - Kubic
 - PKS
 - _many more..._
-@ulend
-@snapend
 
 +++
 ### Glossary
