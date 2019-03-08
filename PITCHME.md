@@ -12,6 +12,15 @@ Note:
     - reusable, scalable code
 
 ---
+### Foreword
+
+Many technical/owner changes in opensource... interesting journey to identify information
+
+![Baseketball Map of Sports Team Changes](/src/img/baseketball-map.png)
+
+[Relocation of Professional Sports Teams](https://en.wikipedia.org/wiki/Relocation_of_professional_sports_teams)
+
+---
 
 ### Why?
 
@@ -40,16 +49,27 @@ Note:
 
 - Started by Docker, CoreOS, and others in 2015
 - Attempt to standardize runtimes and image specs for community development
-    - [Runtime Spec](https://github.com/opencontainers/runtime-spec)
-    - [Image Spec](https://github.com/opencontainers/image-spec)
+    - @size[14pt]([Runtime Spec](https://github.com/opencontainers/runtime-spec))
+    - @size[14pt]([Image Spec](https://github.com/opencontainers/image-spec))
 - Runtime CLI for OCI spec - ["runc"](https://github.com/opencontainers/runc)
+    - Versions of runc are tightly coupled with versions of OCI runtime-spec
+
++++ 
+OCI Compliant Runtimes
+
+- runc - opencontainer runtime
+- runv - hypervisorr-based runtime
+- runhcs - Windows container host counterpart to runc
+- runsc - gVisor runtime by Google
+- kata-runtime - hypervisor-based runtime
+- cc-runtime (deprecated) - hypervisor-based runtime
 
 ---
 ### Kubernetes - what is it?
 
-Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.
-
-It groups containers that make up an application into logical units for easy management and discovery.
+> Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.
+> 
+> It groups containers that make up an application into logical units for easy management and discovery.
 
 [kubernetes.io](https://kubernetes.io/)
 
