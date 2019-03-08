@@ -1,3 +1,5 @@
+@transition[none]
+
 @size[40pt](@color[#FF694B](**Kubernetes Under the Hood**)@color[#333F48](: <br />A deep dive into container runtimes))
 
 @snap[south]
@@ -79,7 +81,7 @@ Note:
 ![Kubernetes Components](https://d33wubrfki0l68.cloudfront.net/e298a92e2454520dddefc3b4df28ad68f9b91c6f/70d52/images/docs/pre-ccm-arch.png)
 
 +++
-
+@transition[none]
 @snap[north text-bold text-capitalize h1 span-100]
 <br />
 CONTAINER RUNTIME INTERFACE (CRI)

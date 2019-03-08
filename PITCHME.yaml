@@ -2,6 +2,7 @@
 
 theme: white
 theme-override : template/css/custom.css
+transition: slide
 highlight : dark
 published : true
 pro-menus-hidden : true
