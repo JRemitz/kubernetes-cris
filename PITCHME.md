@@ -24,7 +24,25 @@ Note:
 
 > Linux containers are implementations of operating system-level virtualization for the Linux operating system. Several implementations exist, all based on the virtualization, isolation, and resource management mechanisms provided by the Linux kernel, notably Linux namespaces and cgroups.
 
-- [Wikipedia.org](https://en.wikipedia.org/wiki/List_of_Linux_containers)
+[Wikipedia.org](https://en.wikipedia.org/wiki/List_of_Linux_containers)
+
++++
+
+### LXC versus Docker
+
+![LXC versus Docker from Stack Exchange](https://i.stack.imgur.com/a5Neb.png)
+
+[Stack Exchange Inquiry](https://unix.stackexchange.com/a/254982)
+
++++
+
+### Open Container Initiative ("OCI")
+
+- Started by Docker, CoreOS, and others in 2015
+- Attempt to standardize runtimes and image specs for community development
+    - [Runtime Spec](https://github.com/opencontainers/runtime-spec)
+    - [Image Spec](https://github.com/opencontainers/image-spec)
+- Runtime CLI for OCI spec - ["runc"](https://github.com/opencontainers/runc)
 
 ---
 ### Kubernetes - what is it?
