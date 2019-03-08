@@ -87,7 +87,7 @@ Note:
 CONTAINER RUNTIME INTERFACE (CRI)
 @snapend
 
-@snap[west span-50]
+@snap[west span-40]
 @ul[text-06](false)
 - Introduced in kubernetes 1.5
 - Incorporated into the Kubelet which runs on the Node
@@ -101,7 +101,10 @@ CONTAINER RUNTIME INTERFACE (CRI)
 
 ---
 @transition[none]
-### Kubernetes Container Runtimes
+@snap[north text-bold text-capitalize h1 span-100]
+<br />
+KUBERNETES CONTAINER RUNTIMES
+@snapend
 
 @snap[west span-100]
 @ul[text-06](false)
