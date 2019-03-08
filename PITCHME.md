@@ -22,7 +22,7 @@ Note:
 
 ---
 
-### Why have a container runtime presentation?
+### Goals
 
 - Desire to see more about Kubernetes internals
 - Many underlying technologies that have their own feature sets often not seen or considered
@@ -58,7 +58,7 @@ Note:
 #### OCI Compliant Runtimes
 
 - runc - opencontainer runtime
-- runv - hypervisorr-based runtime
+- runv - hypervisor-based runtime
 - runhcs - Windows container host counterpart to runc
 - runsc - gVisor runtime by Google
 - kata-runtime - hypervisor-based runtime
