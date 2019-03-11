@@ -192,12 +192,27 @@ Limitations exist for CRI support:
 
 +++
 
-#### Node Architecture
+#### K8s Architecture
 
-![Frankenstein's K8s Node Architecture](/src/img/frankensteins-k8s.png)
+![Frankenstein's K8s Architecture](/src/img/frankensteins-k8s.png)
 
 ---
+@transition[none]
+@snap[north text-bold text-capitalize h1 span-100]
+<br />
+SUMMARY
+@snapend
 
+@snap[west span-200]
+@ul[text-06](false)
+- Container runtimes and options may be different based on k8s installation method
+- Container runtime development is happening in parallel to Kubernetes development, not just downstream
+- Kubernetes requirements can extend beyond customer experience (e.g. security), raising needs for broader decisions on runtime configuration
+- Kubernetes features can be tied to container runtime capabilities
+@ulend
+@snapend
+
+---
 ### Glossary
 
 - CNI - [Container Network Interface](https://github.com/containernetworking/cni#cni---the-container-network-interface) - network connectivity of containers
