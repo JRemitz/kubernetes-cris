@@ -166,8 +166,8 @@ KUBERNETES CONTAINER RUNTIMES
 - Based on Intel's Clear Containers with help from Openstack Foundation
 - Runtime of `virtcontainers`
 - Runs qemu-lite virtual machines
-- Supports AWS' Firecracker-based virtual machines as of January, 2019
-- Supports IBM Z-series (s390x)
+- Supports AWS' Firecracker-based virtual machines (January, 2019)
+- Supports IBM Z-series (s390x) (January, 2019)
 
 ---
 
