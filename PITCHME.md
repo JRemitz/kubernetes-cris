@@ -26,9 +26,9 @@ Note:
 
 ### Goals
 
-- Desire to see more about Kubernetes internals
+- Desire to understand Kubernetes' dependencies
 - Many underlying technologies that have their own feature sets often not seen or considered
-- Awareness to new stakeholders like: architecture, security, and operations
+- Awareness to new stakeholders including: architecture, security, and operations (among others)
 
 ---
 ### Container Overview
