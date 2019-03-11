@@ -189,6 +189,13 @@ Limitations exist for CRI support:
 @css[text-bold](Frankenstein's Kubernetes)
 
 @img[span-30](http://hddfhm.com/images/clipart-frankenstein-18.png)
+
++++
+
+#### Node Architecture
+
+![Frankenstein's K8s Node Architecture](/src/img/frankensteins-k8s.png)
+
 ---
 
 ### Glossary
