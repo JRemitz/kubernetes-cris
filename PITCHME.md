@@ -133,6 +133,7 @@ KUBERNETES CONTAINER RUNTIMES
 - Supports multiple OCI runtimes
 - Default runtime is `runc`, can handle untrusted/trusted workloads
 - Support Kubernetes RuntimeClasses (alpha w/ v1.12)
+- Support kata-containers
 
 ![CRI Containerd](/src/img/cri-containerd.png)
 
@@ -143,6 +144,7 @@ KUBERNETES CONTAINER RUNTIMES
 - Built specifically for Kubernetes
 - Supports multiple OCI runtimes
 - Default runtime is `runc`, can handle untrusted/trusted workloads
+- Support Kubernetes RuntimeClasses (alpha w/ v1.12)
 - Support kata-containers
 
 ![CRI CRI-O](/src/img/cri-crio.png)
