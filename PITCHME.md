@@ -96,7 +96,7 @@ CONTAINER RUNTIME INTERFACE (CRI)
 @ulend
 @snapend
 
-@snap[east sidebar]
+@snap[east sidebar span-55]
 ![CRI Overview](/src/img/cri_overview.png)
 @snapend
 
