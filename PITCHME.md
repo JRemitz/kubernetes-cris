@@ -90,6 +90,7 @@ CONTAINER RUNTIME INTERFACE (CRI)
 @snap[west span-40]
 @ul[text-06](false)
 - Introduced in kubernetes 1.5
+- Container Runtimes (Docker/Rkt) had been embedded in k8s
 - Incorporated into the Kubelet which runs on the Node
 - Leverages gRPC calls for common functions like stopping/starting containers, and other things
 @ulend
@@ -164,6 +165,7 @@ KUBERNETES CONTAINER RUNTIMES
 - Runtime of `virtcontainers`
 - Runs qemu-lite virtual machines
 - Supports AWS' Firecracker-based virtual machines as of January, 2019
+- Supports IBM Z-series (s390x)
 
 ---
 
