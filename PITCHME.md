@@ -164,6 +164,7 @@ KUBERNETES CONTAINER RUNTIMES
 ### Kata-containers
 
 - Based on Intel's Clear Containers with help from Openstack Foundation
+- Requires nested virtualization on the VM (e.g. AWS' i3.metal)
 - Runtime of `virtcontainers`
 - Runs qemu-lite virtual machines
 - Supports AWS' Firecracker-based virtual machines (January, 2019)
