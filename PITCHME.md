@@ -14,16 +14,20 @@ OVERVIEW
 @snapend
 
 
-@snap[midpoint span-300 text-08]
+@snap[midpoint span-500 text-08]
 Container runtimes are behind the scenes, this is a high level, surface look at those runtimes.
 @ol[text-07](false)
 - Presentation goals
 - Introduction to "containers"
+
     - Open Container Initiative ("OCI")
     - Runtime spec vs. Image spec
+
 - Introduction to Kubernetes
+
     - Architecture
     - Container Runtime Interface ("CRI")
+
 - Kubernetes' Container Runtimes
 - Introduction to Micro VMs
 - Installing Kubernetes
