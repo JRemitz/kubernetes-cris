@@ -9,8 +9,8 @@
 
 ---
 @transition[none]
-@snap[north text-bold text-capitalize h1 span-100]
-OVERVIEW
+@snap[north span-100]
+@css[text-bold text-capitalize h1](OVERVIEW)
 <br />
 @css[text-left text-07](Container runtimes are behind the scenes, this is a high level, surface look at those runtimes.)
 @snapend
@@ -19,11 +19,11 @@ OVERVIEW
 @ol[text-06](false)
 - Presentation goals
 - Introduction to "containers"
-    a. Open Container Initiative ("OCI")
+    a. Open Container Initiative ("OCI")<br />
     b. Runtime spec vs. Image spec
 - Introduction to Kubernetes
     a. Architecture
-    a. Container Runtime Interface ("CRI")
+    b. Container Runtime Interface ("CRI")<br />
 - Kubernetes' Container Runtimes
 - Introduction to Micro VMs
 - Installing Kubernetes
