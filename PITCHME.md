@@ -170,7 +170,7 @@ KUBERNETES CONTAINER RUNTIMES
 ---
 ### Micro VMs
 
-Running a VM within a VM (requires nested virtualization on host)
+@css[text-07](Running a VM within a VM - requires nested virtualization on host)
 
 Wrappers
 - @color[#FF694B](kata-containers)
