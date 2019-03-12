@@ -7,20 +7,22 @@
 @size[14pt](@fa[github] @fa[twitter-square] @jremitz)
 @snapend
 
-Note:
-
-- Jake Remitz - Lead Software DevOps Engineer
-- Talk about testing you infrastructure as code (Ansible) in an Enterprise environment
-    - reusable, scalable code
-
 ---
-#### Foreword
+#### Overview
 
-@size[16pt](Many technical/owner changes in opensource... interesting journey to identify information)
+Container runtimes are behind the scenes, this is a high level, surface look at those runtimes.
 
-![Baseketball Map of Sports Team Changes](/src/img/baseketball-map.png)
-
-[Relocation of Professional Sports Teams](https://en.wikipedia.org/wiki/Relocation_of_professional_sports_teams)
+1. Presentation goals
+1. Introduction to "containers"
+    1. Open Container Initiative ("OCI")
+    1. Runtime spec vs. Image spec
+1. Introduction to Kubernetes
+    1. Architecture
+    1. Container Runtime Interface ("CRI")
+1. Kubernetes' Container Runtimes
+1. Introduction to Micro VMs
+1. Installing Kubernetes
+1. Demonstration
 
 ---
 
