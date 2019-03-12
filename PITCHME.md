@@ -172,10 +172,12 @@ KUBERNETES CONTAINER RUNTIMES
 
 Running a VM within a VM (requires nested virtualization on host)
 
+Wrappers
 - @color[#FF694B](kata-containers)
 - gVisor
 - Hypercontainer ("hyperd")
 
+VM implementations
 - @color[#FF694B](qemu-lite)
 - AWS firecracker
 - IBM z-series (s390x)
