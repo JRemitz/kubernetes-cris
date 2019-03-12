@@ -8,10 +8,16 @@
 @snapend
 
 ---
-#### Overview
+@transition[none]
+@snap[north text-bold text-capitalize h1 span-100]
+<br />
+OVERVIEW
+@snapend
 
-Container runtimes are behind the scenes, this is a high level, surface look at those runtimes.
+@css[text-07](Container runtimes are behind the scenes, this is a high level, surface look at those runtimes.)
 
+@snap[midpoint span-150]
+@ol
 1. Presentation goals
 1. Introduction to "containers"
     1. Open Container Initiative ("OCI")
@@ -23,7 +29,8 @@ Container runtimes are behind the scenes, this is a high level, surface look at 
 1. Introduction to Micro VMs
 1. Installing Kubernetes
 1. Demonstration
-
+@olend
+@snapend
 ---
 
 ### Goals
