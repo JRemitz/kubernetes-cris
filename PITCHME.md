@@ -14,21 +14,21 @@
 OVERVIEW
 @snapend
 
-@css[text-07](Container runtimes are behind the scenes, this is a high level, surface look at those runtimes.)
+@css[text-08](Container runtimes are behind the scenes, this is a high level, surface look at those runtimes.)
 
 @snap[midpoint span-150]
-@ol
-1. Presentation goals
-1. Introduction to "containers"
-    1. Open Container Initiative ("OCI")
-    1. Runtime spec vs. Image spec
-1. Introduction to Kubernetes
-    1. Architecture
-    1. Container Runtime Interface ("CRI")
-1. Kubernetes' Container Runtimes
-1. Introduction to Micro VMs
-1. Installing Kubernetes
-1. Demonstration
+@ol[text-07]
+- Presentation goals
+- Introduction to "containers"
+  - Open Container Initiative ("OCI")
+  - Runtime spec vs. Image spec
+- Introduction to Kubernetes
+  - Architecture
+  - Container Runtime Interface ("CRI")
+- Kubernetes' Container Runtimes
+- Introduction to Micro VMs
+- Installing Kubernetes
+- Demonstration
 @olend
 @snapend
 ---
