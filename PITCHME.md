@@ -168,7 +168,19 @@ KUBERNETES CONTAINER RUNTIMES
 ![CRI Frakti](/src/img/cri-frakti.png)
 
 ---
+### Micro VMs
 
+Running a VM within a VM (requires nested virtualization on host)
+
+- @color[#FF694B](kata-containers)
+- gVisor
+- Hypercontainer ("hyperd")
+
+- @color[#FF694B](qemu-lite)
+- AWS firecracker
+- IBM z-series (s390x)
+
++++
 ### Kata-containers
 
 - Based on Intel's Clear Containers with help from Openstack Foundation
