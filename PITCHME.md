@@ -12,8 +12,7 @@
 @snap[north text-bold text-capitalize h1 span-100]
 OVERVIEW
 <br />
-<br />
-@css[text-08](Container runtimes are behind the scenes, this is a high level, surface look at those runtimes.)
+@css[text-left text-07](Container runtimes are behind the scenes, this is a high level, surface look at those runtimes.)
 @snapend
 
 @snap[midpoint span-200]
