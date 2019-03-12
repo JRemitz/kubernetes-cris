@@ -10,13 +10,12 @@
 ---
 @transition[none]
 @snap[north text-bold text-capitalize h1 span-100]
-<br />
 OVERVIEW
 @snapend
 
-@css[text-08](Container runtimes are behind the scenes, this is a high level, surface look at those runtimes.)
 
-@snap[midpoint span-150]
+@snap[midpoint span-150 text-08]
+Container runtimes are behind the scenes, this is a high level, surface look at those runtimes.
 @ol[text-07]
 - Presentation goals
 - Introduction to "containers"
