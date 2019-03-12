@@ -9,7 +9,6 @@
 
 ---
 @transition[none]
-@layout[top]
 @snap[north span-100]
 @css[text-bold text-capitalize h1](OVERVIEW)
 @css[text-left text-07](<p>Container runtimes are behind the scenes, this is a high level, surface look at those runtimes.</p>)
